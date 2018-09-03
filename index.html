@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+    <title>Attieke dishes</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div class="container">
+        <div class="navbar">
+            <div id="logo">
+                <a href="#default" id="logo">Attieke Dishes</a>
+            </div>
+            <div id="menu">
+                <a href="#home">Home</a>
+                <a class="active" href="#about">About us</a>
+                <a href="#products">Products</a>
+                <a href="#orders">Orders</a>
+                <a href="#contact">Contact</a>
+                <a href="#signup"><button id="signupbutton" class="btn">Sign up</button></a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div id="home" class="bg">
+            <div class="containertransparent">
+                <div class="content">
+                    <h1 id="welcomemsg">WELCOME</h1>
+                    <h2>come with us for this trip through delicious attieke dishes</h2>
+                </div>    
+            </div>    
+        </div>
+    </div>
+    <div id="about" class="information" onmouseover="changeBackground2()" onmouseout="returnBackground2()" style="background-color:#f0f0f0">
+        <h1>ABOUT US</h1>
+        <img class="roundedimg" src="styles/images/aboutus.png" alt="serving-dish"> 
+        <p class="explanation">we are keen cooks who want to give new experiences to your taste buds</p>       
+    </div>
+    <div id="products" class="information">
+        <h1>PRODUCTS</h1>
+            <div id="garba" class="card">
+                <img src="styles/images/garba.jpg" alt="Attieke+tunafish" style="width:100%">
+                <h1>Garba</h1>
+                <p class="price">GHS10</p>
+                <p>Attieke with tuna fish with </br> pepper, tomatoes and onion</p>
+                <p><button>Add to Cart</button></p>  
+            </div>
+            <div id="apouletb" class="card">
+                    <img src="styles/images/apoulet.jpeg" alt="Attieke+Chiken" style="width:100%">
+                    <h1>Attieke Chicken</h1>
+                    <p class="price">GHS15</p>
+                    <p>Attieke with Chicken with </br> pepper, tomatoes and onion</p>
+                    <p><button>Add to Cart</button></p>  
+            </div> 
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p class="explanation">Enjoy your meals</p>
+    </div>
+    <div id="orders" class="information" onmouseover="changeBackground()" onmouseout="returnBackground()" style="background-color:#f0f0f0">
+        <h1>ORDERS</h1>
+        <p class="explanation">You ordered 2 Garba and one Attieke Chicken</p>
+        <img class="roundedimg" src="styles/images/car.png" alt="home-delivery"> 
+        <p class="explanation">Thanks for your order, we'll contact you soon for the home delivery</p>
+    </div>
+    <div id="contact" class="information">
+        <h1>CONTACT US</h1>
+        <div class="profilecard">
+                <img src="styles/images/support.png" alt="attieke" style="width:100%">
+                <h1>Customer service</h1>
+                <a href="#"><i class="fa fa-dribbble"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <p><button id="supportbutton">Contact</button></p>
+              </div>
+    </div>
+    <script src="scripts/main.js"></script>  
+  </body>
+</html>
