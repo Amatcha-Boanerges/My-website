@@ -86,7 +86,7 @@ h2,h3,.explanation {
 }
 #home {
     /* The image used */
-    background-image: url("images/apb.jpg");
+    background-image: url("../images/apb.jpg");
     /* Full height */
     height: 500px;
     width: 100%;
