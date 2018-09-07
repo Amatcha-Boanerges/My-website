@@ -23,6 +23,7 @@ function result() {
     newStory = newStory.replace(':insertz:', zItem);
   if(customName.value !== '') {
     var name = customName.value;
+    newStory = newStory.replace('Bob', name);
 
   }
 
