@@ -14,7 +14,10 @@ var insertZ = ['spontaneously combusted', 'melted into a puddle on the sidewalk'
 randomize.addEventListener('click', result);
 
 function result() {
-
+    var newStory = storyText;
+    var xItem = randomValueFromArray(insertX);
+    var yItem = randomValueFromArray(insertY);
+    var zItem = randomValueFromArray(insertZ);
   if(customName.value !== '') {
     var name = customName.value;
 
